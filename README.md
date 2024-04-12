@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# What in it
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a small codebase for the posts as in facebook, instagram or even linkein.
+
 
 ## Available Scripts
 
