@@ -35,16 +35,16 @@ function PostButtons({toggleComments, toggleLike, isLiked }) {
                                 <ThumbUp /> <strong>like</strong>
                             </IconButton> */}
 
-                              <IconButton color={isLiked ? "primary" : "secondary"} onClick={toggleLike}>
+                              <IconButton color={isLiked ? "secondary" : "primary"} onClick={toggleLike}>
                                 <ThumbUp sx={{ fontSize: '16px', color: isLiked ? "primary" : "inherit" }} /> 
                                 <strong style={{ fontWeight: 'normal', fontSize: '14px' }}>{isLiked ? "Liked" : "Like" }</strong>
                             </IconButton>
 
-                            <IconButton color="secondary" onClick={toggleComments}>
+                            <IconButton color="primary" onClick={toggleComments}>
                                 <Comment sx={{ fontSize: '16px' }} /><small style={{ fontWeight: 'normal', fontSize: '14px' }}>10</small>
                             </IconButton>
 
-                            <IconButton color="secondary">
+                            <IconButton color="primary">
                                 <Share sx={{ fontSize: '16px' }} /><strong style={{ fontWeight: 'normal', fontSize: '14px' }}>share</strong>
                             </IconButton>
                         </React.Fragment>

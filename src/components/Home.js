@@ -5,6 +5,7 @@ import ChatListMain from './ChatListMain';
 import Profile from './Profile';
 import "../style/Post.css";
 import MessageBox from './MessageBox';
+import MessageMain from './MessageMain';
 import PostMain from './PostMain';
 
 function Home() {
@@ -35,7 +36,7 @@ function Home() {
 
 <div className="left-panel">
         {showMessageBox ? (
-          <MessageBox onPickClick={handleBack}/>
+          <MessageMain onPickClick={handleBack}/>
         ) : (
           <ChatListMain onChatListItemClick={handleChatListItemClick} />
         )}

@@ -154,20 +154,43 @@
 .Message_box{
   margin: auto; /* Center the profile horizontally */
   width: 80%; /* Adjust the width as needed */
-  height: 500px;
+  height: 350px;
   background-color: white;
   margin-right: auto;
   margin-left: auto;
   border: 1px solid lightgray;
-  margin-top: 20px;
-  margin-bottom: 20px;
   border-radius: 10px;
   overflow-y: scroll;
 }
+.Message_box{
+  width: 99%
+}
+
+.message__header{
+background-color: whitesmoke;
+height: 70px;
+border: 1px solid #DCF8C6;
+border-radius: 10px;
+}
+
+.Message_input{
+background-color: whitesmoke;
+border: 1px solid #DCF8C6;
+
+}
+.message_main{
+  background-color: #e0e0e0;
+  height: 500px;
+  width: 90%;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+
+}
 .post2 {
   margin: auto; /* Center the profile horizontally */
-  height: 600px;
-  background-color: white;
+  height: 550px;
+  background-color: white ;
   margin-right: auto;
   margin-left: auto;
   border: 1px solid lightgray;
@@ -178,8 +201,7 @@
 }
 
 .post1{
-
   height: 600px;
-
   overflow-y: scroll;
+
 }
